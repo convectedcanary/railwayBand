@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <nav>
+          <div class="nav-center">
+              <!--nav header-->
+              <div class="nav-header">
+                  <h3>Railway Band</h3>
+                  <button class="nav-toggle">
+                      <i class="fas fa-bars"></i>
+                  </button>
+              </div>
+              <!-- links -->
+              <ul class="links">
+                  <li>
+                      <a href="#about-section">home</a>
+                  </li>
+                  <li>
+                      <a href="#about-section">about</a>
+                  </li>
+                  <li>
+                      <a href="#events-section">events</a>
+                  </li>
+                  <li>
+                      <a href="projects.html">join us</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">hire us</a>
+                  </li>
+
+
+              </ul>
+              <!-- social media -->
+              <ul class="social-icons">
+                  <li>
+                      <a href="https://www.twitter.com">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.twitter.com">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <!----hero--->
+
+      <header class="section" id="header-section">
+          <div class="banner">
+              <h1>city of exeter</h1>
+              <h1>Exeter Railway Band</h1>
+              <div class="logo">
+                  <img class="logo-image" src="images/NationalRailLogo.png" />
+              </div>
+          </div>
+      </header>
+
+      <section class="section" id="about-section">
+          <h2>about us</h2>
+          <p>
+              Founded on the 15th of October 1944 by a group of Railway workers Exeter Railway Band has continued to rehearse on Tuesday evenings, going from strength to strength, proudly accepting the role of standard bearer for Brass music in the Exeter area.
+          </p>
+          <p>
+              Throughout the year we hold regular concerts and feature at various events in and around the City of Exeter.  Recently we have began getting involved with the contesting scene and are currently a third section band who are trying to improve all the time.
+          </p>
+          <p>
+              We are a friendly inclusive band open to all.  If you wish to play with us then please do not hesitate to contact us.  Also, if you wish to hire us for your event, fete, wedding or wish to hold a concert alongside us then just let us know!
+
+          </p>
+      </section>
+
+      <section class="section" id="events-section">
+          <h2>upcoming events</h2>
+          <p>Throughout the year we take part in a variety of events and concerts in and around Exeter.  </p>
+          <p>A lot of these performances are free to listen to, although any concerts do have small admission fee.</p>
+          <p>
+              To keep up to date please follow us on Facebook or Twitter to recieve information on latest performances or click on the button below to
+              find out about upcoming events.
+          </p>
+          <button class="btn events-button" id="">Future Events</button>
+
+          <!--modal-->
+          <div class="modal-overlay">
+              <div class="modal-container">
+                  <h4>upcoming events</h4>
+                  <ul class="events-list">
+                      <li>
+                          11th November 10:30 - Higher Cemetery Exeter
+                      </li>
+                      <li>
+                          11th november 19:00 - Donkey Sanctuary
+                      </li>
+                      <li>
+                          29th november 19:30 - Exeter Cathedral
+                      </li>
+                      <li>
+                          1st December 15:00 - Powderham Castle
+                      </li>
+                      <li>
+                          4th/5th December - Carols in Exeter City
+                      </li>
+                                </ul>
+                  <button class="close-btn">
+                      <i class="fas fa-times"></i>
+                  </button>
+              </div>
+              </div>
+
+      </section>
+
+      <!-- javascript -->
+      <script src="app.js"></script>
+  </body>
+</html>
